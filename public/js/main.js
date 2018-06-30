@@ -475,7 +475,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 //const COUNTRIESURL = '/countries.json';
-var CURRENCIESURL = '/currencies.json';
+var CURRENCIESURL = '/server/currencies.json';
 var mmap = { 'to_currency_select_id': 'currency_input_1',
     'from_currency_select_id': 'currency_input_2' };
 var dmap = { 'to_currency_select_id': 'currency_input_2',
