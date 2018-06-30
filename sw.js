@@ -7,7 +7,7 @@ var allCaches = [staticCacheName];
 //'countries.json',
 self.addEventListener('install', function (event) {
   event.waitUntil(caches.open(staticCacheName).then(function (cache) {
-    return cache.addAll(['./', './public/js/main.js', './public/css/styles.css', './public/imgs/icon.png', './server/currencies.json']);
+    return cache.addAll(['./', './public/js/main.js', './css/styles.css', './public/imgs/icon.png', './server/currencies.json']);
   }));
 });
 
