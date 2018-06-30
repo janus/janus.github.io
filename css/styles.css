@@ -90,6 +90,10 @@ input {
   text-align: right;
   width: 8em; }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+  opacity: 1; }
+
 .right select {
   width: 100%; }
 
@@ -129,4 +133,3 @@ h1 {
   font-size: 1.3em;
   font-weight: bold; }
 
-/*# sourceMappingURL=maps/styles.css.map */
