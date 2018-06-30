@@ -614,10 +614,12 @@ var Compute = exports.Compute = function () {
                 url = void 0,
                 rst = this._cuList.join('-'),
                 storeVal = await this._indexController.getDB(rst);
+                let page = `https://free.currencyconverterapi.com/api/v3/convert?q=${this._cuList[0]}_${this._cuList[1]},${this._cuList[1]}_${this._cuList[0]}&compact=ultra`;
             if (!storeVal) {
                 try {
                     url = '/currencies/' + rst;
-                    vl = await this._fetchUrl(url);
+                    //vl = await this._fetchUrl(url);
+                    vl = await this._fetchUrl(page);
                     if (!vl) {
                         throw new Error();
                     }
