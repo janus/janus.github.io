@@ -553,7 +553,7 @@ var Compute = exports.Compute = function () {
         key: 'checkAndCompute',
         value: function checkAndCompute(event, from, to) {
             if (!this._setting[event.target.id]) return;
-            if (from.value < 0) { to.value = 0; return;}
+            if (from.value < 0) { from.value = 0; return;}
             var vl = from.value * this._setting[event.target.id][1];
             to.value = Math.round(vl * 100) / 100;
         }
