@@ -39,8 +39,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  height: 700px;
+  max-width: 100%;
   margin: 0 auto;
   min-height: 100vh; }
 
