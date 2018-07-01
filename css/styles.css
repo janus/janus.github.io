@@ -83,7 +83,7 @@ main {
   width: 40%; }
 
 .left select {
-  width: 14.2em; }
+  width: 13.2em; }
 
 input {
   text-align: right;
@@ -94,7 +94,7 @@ input[type=number]::-webkit-outer-spin-button {
   opacity: 1; }
 
 .right select {
-  width: 14.2em; }
+  width: 13.2em; }
 
 .right {
   width: 40%; }
